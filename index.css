@@ -1,65 +1,69 @@
-body,*{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     background-color: #f2f6ff;
 }
 #register{
-    width: 680px;
+    width: 45%;
     height: 100vh;
     margin: 0 auto;
-    border: 1px rgb(80, 79, 79) solid;
+    border: 2px  #ccc solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     background-color: white;
+    border-radius: 3px ;
+}
+.second{
+width: 100%;
+height: 17vh;
+margin-top: 20px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: row;
+background-color: #f2f6ff;
 }
 h1{
     text-align: center;
-    padding-top: 30px;
-    
-}
-.imgs{
-  float: left;
-  position: relative;  
-  padding-left:85px ;
-  padding-top: 25px;
+    padding-top: 20px;   
 }
 img{
     width: 40px;  
 }
-.main{
-    background-color:  #f2f6ff;
+.inputs{
+    height: 85vh;
     width: 100%;
-    height: 90px;
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
     
-}
-.second{
-    position: absolute;
-   margin-left: 50px;
-  
 }
 input{
     border: none;
-    border-bottom: 1px solid rgb(61, 59, 59);
-    margin-top: 40px;
-    padding-bottom: 7px;
-    padding-top: 7px;
-    width: 70%;
-    margin-left: 114px;
+    padding: 10px 0;
+    width: 80%;
     font-size: 18px;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 3px;
+    border-bottom: 2px solid #ccc;
 }
 button{
-    background-color: #0056ff ;
+    background-color: #0056ff;
     border: none;
-    padding: 10px 18px;
+    padding: 10px 30px;
     cursor: pointer;
     text-align: center;
     color: white;
     font-size: 17px;
-    margin-left: 277px;
-    margin-top: 28px;
+    border-radius: 6px;
+    margin-top: 16px;
 }
 button:hover{
     opacity: .8;
